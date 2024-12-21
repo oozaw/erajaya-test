@@ -1,19 +1,12 @@
-## Goals
-- Anda dapat men-develop dashboard berisi chart (bisa berupa pie chart, histogram, dsb) yang menampilkan jumlah karyawan per periode sesuai dengan filter yang dipilih. Tools frontend untuk membuat chart dapat dipilih sesuai dengan kebutuhan. Filter terdiri dari: 
-  * Company
-  * Division
-  * Level
-  * Gender
-- Filter tersebut dapat dikombinasikan, sebagai contoh filter yang dipilih adalah company dan level maka hasil filter terdiri dari jumlah karyawan yang masuk ke dalam 2 kriteria yang dipilih
-- Requirement mini project ini menggunakan PHP Laravel 8 dan database mysql
-
-## Panduan Pengerjaan
-1. Silahkan clone repository berikut `https://github.com/hafiyyann/hces-erajaya-skill-test`
-2. Data dummy untuk test ini sudah disiapkan, silahkan gunakan data tersebut untuk proses pembuatan dashboard
-3. Silahkan lakukan migrate dan seed terlebih dahulu dengan menjalankan `php artisan migrate` dan `php artisan db:seed` pada command line
-4. Proses filtering pada chart dilakukan melalui Ajax atau API call
-5. Data pada chart akan diperbaharui sesuai dengan data yang diperoleh dari Ajax atau API call tersebut
-
-## Panduan Pengumpulan :
-1.	Publish repository yang berisi hasil pengerjaan Anda ke github
-2.	Submit link repository tersebut kepada Talent Acquisition yang menghubungi Anda, pastikan repository tersebut di-set ke public
+## Petunjuk Instalasi
+1. Clone repository ini
+2. Jalankan perintah `composer install`
+3. Jalankan perintah `npm install`
+4. Copy file `.env.example` menjadi `.env`
+5. Isi konfigurasi database pada file `.env`
+6. Jalankan perintah `php artisan key:generate`
+7. Jalankan perintah `php artisan migrate`
+8. Jalankan perintah `php artisan db:seed`
+9. Jalankan perintah `npm run dev`
+10. Jalankan perintah `php artisan serve`
+11. Buka browser dan akses `http://localhost:8000`
