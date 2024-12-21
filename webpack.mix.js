@@ -33,12 +33,3 @@ mix.js("resources/js/app.js", "public/js")
             ],
         }
      });
-
-mix.browserSync({
-    proxy: "http://localhost:8000",
-    files: [
-        "resources/views/**/*.blade.php",
-        "public/**/*.*"
-    ],
-    open: false
-});
